@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data Analysis Portal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .analysis-section {
+            margin-top: 40px;
+        }
+        .analysis-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .analysis-section h2 {
+            margin-bottom: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .portal-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sales Data Analysis Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product-analysis.jsp">Product Analysis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer-analysis.jsp">Customer Analysis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sales-analysis.jsp">Sales Analysis</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Page Title -->
+        <div class="portal-title">
+            <h1>Sales Data Analysis Portal</h1>
+            <p>Explore comprehensive analyses on products, customers, and sales to optimize your Walmart experience.</p>
+        </div>
+
+        <!-- Product Analysis Section -->
+        <div id="product-analysis" class="analysis-section">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2><a href="product-analysis.jsp">Product Analysis</a></h2>
+                    <p>
+                        Delve into the performance of various product categories at Walmart. Discover top-sellers, seasonal trends, and opportunities for product expansion.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img src="https://via.placeholder.com/600x400" alt="Product Analysis">-->
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Analysis Section -->
+        <div id="customer-analysis" class="analysis-section bg-light p-4 rounded">
+            <div class="row">
+                <div class="col-lg-6">
+                   <!--  <img src="https://via.placeholder.com/600x400" alt="Customer Analysis">-->
+                </div>
+                <div class="col-lg-6">
+                    <h2><a href="customer-analysis.jsp">Customer Analysis</a></h2>
+                    <p>
+                        Gain insights into Walmart's diverse customer base. Analyze purchasing patterns, customer preferences, and demographic information to better understand and serve your audience.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sales Analysis Section -->
+        <div id="sales-analysis" class="analysis-section">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2><a href="sales-analysis.jsp">Sales Analysis</a></h2>
+                    <p>
+                        Explore detailed sales data to uncover revenue trends, geographic performance, and other key sales metrics that drive Walmart's success.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img src="https://via.placeholder.com/600x400" alt="Sales Analysis">-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
